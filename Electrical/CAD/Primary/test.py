@@ -43,14 +43,39 @@ def TestTracks():
 
     track = TRACK(pcb)
     track.SetStart(wxPointMM(25,25))
-    track.SetEnd(wxPointMM(100,100))
-    track.SetLayer(31)
+    track.SetEnd(wxPointMM(25,50))
+    track.SetLayer(0)
     track.SetNetCode(0)
     track.SetWidth(250000)
 
     pcb.Add(track)
 
-    tracks = pcb.GetTracks()
+    track = TRACK(pcb)
+    track.SetStart(wxPointMM(25,50))
+    track.SetEnd(wxPointMM(50,50))
+    track.SetLayer(0)
+    track.SetNetCode(0)
+    track.SetWidth(250000)
+    
+    pcb.Add(track)
+
+    track = TRACK(pcb)
+    track.SetStart(wxPointMM(50,50))
+    track.SetEnd(wxPointMM(50,25))
+    track.SetLayer(0)
+    track.SetNetCode(0)
+    track.SetWidth(250000)
+
+    pcb.Add(track)
+
+    track = TRACK(pcb)
+    track.SetStart(wxPointMM(50,25))
+    track.SetEnd(wxPointMM(25,25))
+    track.SetLayer(0)
+    track.SetNetCode(0)
+    track.SetWidth(250000)
+
+    pcb.Add(track)
 
 
 TestTracks()
