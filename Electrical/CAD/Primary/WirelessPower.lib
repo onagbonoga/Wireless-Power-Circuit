@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 2x_Battery_Cell
+#
+DEF 2x_Battery_Cell BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "2x_Battery_Cell" 100 0 50 H V L CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+DRAW
+S -90 70 90 60 0 1 0 F
+S -62 47 58 27 0 1 0 F
+S -90 -580 90 -590 1 1 0 F
+S -62 -603 58 -623 1 1 0 F
+P 2 0 1 0 0 30 0 0 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 20 135 60 135 N
+P 2 0 1 10 40 155 40 115 N
+P 2 1 1 0 0 -620 0 -650 N
+P 2 1 1 0 0 -580 0 -550 N
+P 2 1 1 10 20 -515 60 -515 N
+P 2 1 1 10 40 -495 40 -535 N
+X - 1 0 -750 100 U 50 50 1 1 P
+X + 2 0 -450 100 D 50 50 1 1 P
+X + 3 0 200 100 D 50 50 1 1 P
+X - 4 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
