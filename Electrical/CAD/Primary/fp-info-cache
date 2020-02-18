@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream
-3163789306421
-=======
-17213180402860714
+17214762416560512
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin{space}Battery{space}Holder,{space}BX0036,{space}Battery{space}Type{space}C{space}(https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76023,14 +76020,6 @@ CoilSpiral_25_Bezier
 3
 3
 WirelessPower
-CoilSpiral_25_Lines
-
-
-0
-3
-3
->>>>>>> Stashed changes
-WirelessPower
 GF-325
 
 
@@ -76065,6 +76054,20 @@ Keystone_Dual_AA_Holder
 0
 4
 4
+WirelessPower
+TSoG_logo
+
+
+0
+0
+0
+WirelessPower
+TSoG_logo_small
+
+
+0
+0
+0
 hodgkin
 ArdNanoLabels
 Arduino{space}Nano,{space}http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf

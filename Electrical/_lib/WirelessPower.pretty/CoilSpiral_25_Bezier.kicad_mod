@@ -1,4 +1,4 @@
-(module "CoilSpiral_25_Bezier" (layer F.Cu) (tedit 5E4AE4D6)
+(module "CoilSpiral_25_Bezier" (layer F.Cu) (tedit 5E4B062F)
   (fp_text reference "REF**" (at 0 5.575) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -7,7 +7,7 @@
   )
   (pad "1" smd roundrect (at -36 0) (size 2 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25))
   (pad "2" smd roundrect (at -9.5 0) (size 2 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25))
-  (pad "0" connect custom (at -22.25 0) (size 0.5 0.5) (layers "F.Cu" "F.Mask")
+  (pad "0" connect custom (at -22.25 0) (size 0.5 0.5) (layers "F.Cu")
     (options (clearance convexhull) (anchor circle))
     (primitives
   (gr_curve (pts (xy 12 0) (xy 12 5.657129) (xy 16.454892 10.5) (xy 22.25 10.5)) (width 0.5))
