@@ -1,4 +1,4 @@
-update=sam. 29 févr. 2020 22:00:33 CET
+update=sam. 29 févr. 2020 23:40:26 CET
 version=1
 last_client=kicad
 [general]
@@ -251,9 +251,9 @@ dPairGap=0.25
 dPairViaGap=0.25
 [PcbFrame]
 version=1
-[LibeditFrame]
-version=1
 [sheetnames]
 1=ad0ec92f-f1e7-4753-a504-faee588b5855:Sheetad0ec92f-f1e7-4753-a504-faee588b5855
+[LibeditFrame]
+version=1
 [ModEditFrame]
 version=1
